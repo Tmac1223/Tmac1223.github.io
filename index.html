@@ -1,17 +1,104 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>#Welcom to Tims ePortfolio</title>
-  </head>
-  <body bgcolor="black" text="white">
-    
-    
-    <br><br>
-    <a href="https://youtu.be/TSIkjyn0NE4" target="_blank">Watch this video on YouTube</a>
+    <title>Welcome to Tims ePortfolio</title>
+    <style>
+	body {
+		background-color: black;
+		color: green;
+	     }
+	P {
+		text-indent: 40px;
+	  }
+	.highlight {
+		font-weight: bold;
+		color: limegreen;
+    </style>
+    </head>
+    <body>
+<h1><span class="highlight">Welcome to Tim Mcgowans Eportgilio for CS-499 Computer Science Capstone</h1></span>
+    <h1>Professional Self-Assessment</h1>
+	<h3><p>When I first applied to college, I originally wanted to be a psychology major but after about five course I didn’t think it was for me since I have always been more interested in technology. When I switched to the Computer Science program I had absolutely no experience in hardware or software development. I came into this wish basic computer skills, and knowledge of how computers operate and gaming consoles, this was the extent of my knowledge. But I dove headfirst and started to learn everything I could soaking it up like a sponge, throughout my academic journey I have had gain hands on experiences and learned multiple languages such as C++, C#, JAVA, and Python. I have also worked in multiple IDE such as Eclipse, Visual Studio, JupyterNotebook, PyCharm, Genny, and Thony. During my time I have also worked in Linux operating systems and Ubuntu servers Raspberry pi. I still feel like there’s a lot to learn, and I have a lot to perfect as I continue to advance in my career. </p>
 
-    
-    
-    
+	<p>Throughout my academic journey, I have undertaken various projects that strengthened my technical skills and ability to deliver solutions. For instance, in Cs-305 Software security This class we value software security and how to create encryption algorithms for software following ASE (Advanced Encryption Standard). We used RESTful to run dependency checks and the generation of Certificates for the java project. Independently, I am currently working on AI that can distinguish images for the game Rock, Paper, Scissors. which challenged me to learn how AI uses keras models to create neural network that receives data and store it. As I am working on this it has started to hone my experiences my proficiency in Python and helps my understand of keras models, convoluting and pooling. All these projects in combination have bolstered my problem-solving mindset. </p>
+	<p>One of my most rewarding projects was Cs-330 Comp Graphic and Visualization final project. This endeavor was considered one of the hardest classes per my academic advisor and I finished with almost a perfect score. This project asked us to render 3d objects in C++ using the API OpenGL. Which resulted in me Gaining a more in-depth knowledge of how the C language can be used in software. The process solidifies my communication skills as I frequently ask my instructor questions then answer them before the email was ever replied to. This experience set my problem-solving skill into overdrive as I have never worked with graphics in C++, especially from scratch. </p>
+	<p>When I first started in computer science my instructor told me not to get stuck on what I want to do because there are many roads in computer science. He was right, I originally wanted to be a software developer and work towards that, but as of lately I enjoyed the projects I did that led me toward automation engineering more. I enjoy the physical aspects of putting the components together than developing code that makes the robots/devices act. Outside of school I work on projects that involve automation, but as of late I have been working with Large Language Models (LLM), and I have been self-teaching myself how to train and fine-tune LLMs using LoRA. This is helping me hone my skills in python while helping me constantly sharpening my problem-solving skills. For my future experience, I plan on continuing to grow in the professional industry and gain experience as I make my way up to the position I want. </p>
+	<p>For this eportfilio we were asked to pick three artifacts and add an enhancement from each of the three categories. These categories are Enhancement one: Software Engineering and Design, Enhancement Two: Algorithms and Data Structures, and Enhancement Three: Databases. I opted to use one project and add the three enhancement to this project so I could show my development mindset for an end-to-end project. The artifact that I will use comes from a previous class, CS 350: Emerging Systems Architectures and Technologies. This project is a thermostat that uses external sensors to tell the temperature, and it can be turned up or down depending on the button pressed. It uses an LCD to display the temperature, time, and date. This project was created and worked on throughout July 2025. </p>
+	<p>The reason I decided to include this project is because of how it was created and what it can lead to. This project is coding in python, but it’s on a Raspberry pi using Ubuntu a GI less OS where the code can be run from files. We added all the components to make the thermostat using a solderless board by connecting them via the GPIO pins. This project shows that I can code in python by using connected devices and running them properly. It also shows my technical skills in building a project off paper and into the real world. </p>
+</h3>
+<h1>Informal Code Review</h1>
+<h3>The original video was too large so this like will take you to YouTube</h3>                                            <a href="https://youtu.be/TSIkjyn0NE4" target="_blank">Informal Code Review for CS-499</a>
 
+<h1>Original Artifact: CS 350: Emerging Systems Architectures and Technologies automated smart thermostat </h1>
+<h2>
+Artifact: CS 350: Emerging Systems Architectures and Technologies automated smart thermostat
+
+Artifact Link: <a href="Tim McGowan-Cs-499 Computer Science Capstone/Original Project Code" target="_blank">Informal Code Review for CS-499</a>
+</h2>
+<h3>
+	<p>The goal of this project is to create prototype of a smart thermostat with our microcontroller. We have completed the base thermostat by using the lcd screen to display the temperature, the temperature sensors, the two buttons for controlling the temperature, and UART to simulate sending the data. We utilize the GPIO pins in the previous assignments when we connected all the sensors and buttons, this means we have ample space to add or remove items, as necessary. But to make this a smart thermostat we need it to be able to connect to the WI-FI network and have the RAM/Flash to support it. Our Pi 4 can as the Wi-Fi can be accessed, and the users can access the controller through ssh as a way to monitor activity on the back end. </p>
+	 <p>Throughout this course we can see that it has all the capabilities or peripherals needed for this project to come into fruition. The main one being the ability to connect to the network meaning it could connect to a server. With after connecting to the network, it can be programmed to send data for the users. We need to compare architecture to see which would be the best to proceed with. We well compare Raspberry PI 4 vs Microchip the first thing that I notice is power consumption between the two. Raspberry PI has a higher power consumption than Microchip. Next, the most important in my opinion is the Wi-Fi connectivity while PI has built-in Wi-Fi the microcontroller is integration via modules. Next thing I would consider to be up there is ease of development and Pi takes this one in my opinion because it’s easy to develop. </p>
+	<p>This project was excellent for breaking my way into automation and believe there are a couple of skills that could be transferable to other projects and/or course work. First is how we set up the Raspberry Pi without a GUI so we could use less power but still run the files that we wanted, I’m sure that SSH will come in hand in the future as well. Next, is the ability to create circuits on the breadboard, learning how to connect the sensors and items to all work will be beneficial for future projects that involve coding external sensors and/or other items. Lastly, Is the coding that we used during this project. A lot of this code can be reused in other projects; we can even take what we learned and adapt these to new sensors and/or items to use on the breadboard. </p></h3>
+
+<h1>Enhancement One - Software Design and Engineering</h1>
+<h2>
+Artifact: CS 350: Emerging Systems Architectures and Technologies automated smart thermostat
+Enhancement One Link: <a href="Tim McGowan-Cs-499 Computer Science Capstone/Enhancement One" target="_blank">Enhancement One</a>
+</h2>
+	<h3><p>The artifact that I will use comes from a previous class, CS 350: Emerging Systems Architectures and Technologies. This project is built with a Raspberry Pi and uses Ubuntu server to function. It is an automated thermostat that uses external sensors to tell the temperature, and it can be turned up or down depending on the button pressed. It uses an LCD to display the temperature, time, and date. This project was created and worked on throughout July 2025. </p>
+
+	<p>I chose to include this project because of how it was created and what it can lead to. This project is coding in python, but it’s on a Raspberry pi using Ubuntu a GI less OS where the code can be run from files. We added all the components to make the thermostat using a solderless board by connecting them via the GPIO pins. This project shows that I can code in python by using connected devices and running them properly. It also shows my technical skills in building a project off paper and into the real world. </p>
+	<p>The goal of the project originally was to have a stand along thermostat that the user could turn the temperature up or down, turn on the heat or AC, and show the current temperature the sensor was getting. By adding a file that collects data from the sensors of the thermostat and loading them into a file we can improve this project. Storing this data in another file sets us up to have a more in-depth project and allows us to have more control over the thermostat. It allows us to see the temperature per time so if this was to be connected to a home AC unit, we could see what times are hotter and/or cooler. </p>
+	<p>The first enhancement that I added for this artifact is adding a logging function to the program that will upload it to a file that can be made into viewable graphs and combined with the other enhancements able to create a Binary search tree (BST). I want to add a logging function because this could be turned into an application where the logs could be stored. This is for now, uploading to another file and the creation of graphs when the program is running is fine for demonstration purposes. This also stores the data rather than just in memory so it can be accessed later. The plan here was to automate the process where it will log the information, send it to a file and then automate that file to create it into graphs as often as the users want. I think this will enhance this project and show my ability to adapt to automation on a project where there wasn’t any plan to. </p>
+
+	<p>I believe that I met the selected outcomes of the course for this enhancement that I planned for. I designed, developed, and delivered professional-quality written communication to describe the first enhancement. With adding my code, I also demonstrated my ability to use well-founded and innovative techniques and skills. I show that I have an Idea and I’m active pursuing this idea by using building blocks to create a professional final project. 
+The two course outcomes that I chose were:</p>
+<ul>
+<li><strong><span class="highlight">Course Outcome -</span></strong> Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+<li><strong><span class="highlight">Course Outcome -</span></strong>Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+</li>
+</ul
+</h3>
+
+<h1>Enhancement Two - Algorithms and Data Structures</h1>
+<h2>
+Artifact: CS 350: Emerging Systems Architectures and Technologies automated thermostat
+
+Enhancement Two Link: <a href="Tim McGowan-Cs-499 Computer Science Capstone/Enhancement Two"_blank">Enhancement Two</a>
+</h2>
+<h3>
+	<p>The artifact that I will use comes from a previous class, CS 350: Emerging Systems Architectures and Technologies. This project is built with a Raspberry Pi and uses Ubuntu server to function. It is an automated thermostat that uses external sensors to tell the temperature, and it can be turned up or down depending on the button pressed. It uses an LCD to display the temperature, time, and date. This project was created and worked on throughout July 2025. However, this enhancement was recently created in September 2025 for the purpose of this to feature create an automated project. </p>
+
+	<p>Since this is the same project, I will justify the inclusion of the binary search tree for the enhancement. I chose to add a binary search tree (BST) to this project so it can pull the data logged file. I added this because it shows real world knowledge in demonstrating algorithmic thinking. But using a BTS we show our understanding the tree traversal in-order, pre-order, post-order with efficient search logic. This makes our project more technical, highlights efficiency and will open doors to more advanced concepts in future enhancements if you come back to it. Another reason I added this was to impress potential future in employers. A lot of coding interview have the BST problem with them on it, because the company wants to test your core computer science knowledge and it shows your problem-solving skills. </p>
+
+	<p>The second enhancement for this project was to take it even further is to add a data structure, such as a binary search tree (BST). The plan here is to take from the previous enhancement and not only give it the ability to create graphs from it but to make the data into a binary search tree (BST). The reason for adding BST to the second file is that the information is logged in case of restart and/or crashes. Because this stores the information even if there is a crash or restart to build the BST from. By adding BST data structure, it will make storing data more efficient especially since the data needs to be sorted in order. </p>
+
+	<p>I met these course outcome that I planned with implementing this enhancement. I designed a code that added a Binary Search Tree (BTS) to this project it was designed to demonstrate the design and evaluation of a computing solution using algorithmic principles and computer science practices. I also demonstrated my ability to incorporate different techniques into a project to further advance the development of the project while adhering to coding best practices.
+The course outcomes I chose were:</p>
+<ul>
+<li><strong><span class="highlight">Course Outcome -</span></strong> Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.</p></h3>
+
+<h1>Enhancement Three - Databases</h1>
+<h2>
+Artifact: CS 350: Emerging Systems Architectures and Technologies automated thermostat
+Enhancement Three Link: <a href="Tim McGowan-Cs-499 Computer Science Capstone/Enhancement Three">Enhancement Three</a>
+</h2>
+	<h3><p>The artifact that I will use comes from a previous class, CS 350: Emerging Systems Architectures and Technologies. This project is built with a Raspberry Pi and uses Ubuntu server to function. It is an automated thermostat that uses external sensors to tell the temperature, and it can be turned up or down depending on the button pressed. It uses an LCD to display the temperature, time, and date. This project was created and worked on throughout July 2025. The project has 2 enhancements already added to it; the enhancements I added were logging features and a Binary Search Tree (BTS). For final enhancement I added a database to the project. </p>
+
+	<p>Due to this being the same project and all my enhancements work together to make a single project I can justify adding the database due to it adding long term storage to the program. I have a logging feature that logs the data in short term, so once the program goes off the logs will erase. With the addition of a database this will hold the data long term which I can then pull and use the BST to search through extended data. I justify adding this to my project because it shows my knowledge of incorporating a database with an existing project that has can use long-term and short-term memory searching and sorting. This shows future employers that I have knowledge of databases and how to pull from and add to database while incorporating them with code structures. Having knowledge of how to use and learn on datasets will show employers I understand how datasets should be utilized, and I can learn if more extended techniques if necessary. </p>
+
+	<p>Since we have already a Binary search tree (BST) working with the data form the thermostat. The BST, which is good for organizing data and fast access and has the ability to sort the data. However, the database will hold all the logged data that will then be pulled to the data file. For this we decided to use MongoDB as it works well with Python, the language we were using to code this project. Using the BST, we can use it for analysis to find the hottest time, coldest times, just sort the reading. What takes this enhancement to the next level is the use of the database and BST to search for anomalies in the data. We use BST to pull data for a subset of reading e.g., yesterday’s data. This enchantment adds an advanced topic like data mining to the project. </p>
+
+	<p>I believe that I did meet the course outcome that I originally intended to meet when constructing this enhancement. I developed a code that stuck to computer science best coding practices and followed commenting guidelines. I also developed a code as to where anybody could read and understand what is happening in case someone needs to come behind and fix or enhance further later on. I believe that I demonstrated the ability to use will-founded and innovative techniques, skills, and tools in computing practices. I developed a cohesive code that shows that I can build on a project and add value to projects with my problem-solving skills. </p>
+<ul>
+<li><strong><span class="highlight">Course outcome –</span><strong> Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science. </li>
+ 
+<li><strong><span class="highlight">Course outcome –</span><strong>Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.</li>
+
+<li><strong><span class="highlight">Course outcome –</span><strong> Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.</li>
+
+<li><strong><span class="highlight">Course outcome –</span><strong> Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.</li>
+</ul>
+</h3>
   </body>
 </html>
